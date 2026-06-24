@@ -1,4 +1,4 @@
-# SYSTEMATIC-REVIEW SCREENING — First-Ever Stroke Prediction (Traditional ML → Agentic AI)
+# SYSTEMATIC-REVIEW SCREENING — Stroke Prediction (Traditional ML → Agentic AI)
 
 REVISED criteria (2026-06-24).
 
@@ -9,8 +9,7 @@ The ONLY population exclusions are (a) pediatric-only cohorts and (b) animal
 studies. Everything else PASSES population. Specifically, the following are NO
 LONGER population-based exclusions: stroke survivors, recurrent-stroke cohorts,
 mixed cohorts with prior stroke, lack of a stroke-free baseline, "not
-first-ever". DO NOT exclude on population for any of those. (First-ever
-filtering now lives in Gates 2 and 4, below — not here.)
+first-ever". DO NOT exclude on population for any of those.
 
 ## Gate 2 — INTERVENTION / INDEX SYSTEM
 INCLUDE only a genuine AI/ML system for stroke RISK PREDICTION. Conventional
@@ -25,13 +24,14 @@ though population is loosened.
 Cannot exclude on its own.
 
 ## Gate 4 — OUTCOME
-INCLUDE first-ever or incident ISCHEMIC stroke as primary or clearly
-extractable outcome. EXCLUDE: hemorrhagic-only; composite CVD with no
+INCLUDE ISCHEMIC stroke as a primary or clearly extractable outcome (first-ever,
+incident, or recurrent — the "first-ever" requirement no longer applies).
+EXCLUDE: hemorrhagic-only; composite CVD with no
 extractable stroke; a NON-stroke outcome (AF, heart failure, diabetes, DVT,
 cognitive impairment, CKD/AKI, other-cause mortality); acute stroke
 DIAGNOSIS/classification of already-occurred stroke; POST-STROKE functional
-outcome/disability/mRS/recovery/complication; recurrence-only. If the only
-stroke signal is an input predictor (not the outcome), Gate 4 FAILS.
+outcome/disability/mRS/recovery/complication. If the only stroke signal is an
+input predictor (not the outcome), Gate 4 FAILS.
 
 ## Gate 5 — STUDY
 INCLUDE original peer-reviewed research / preprint with methodology /
