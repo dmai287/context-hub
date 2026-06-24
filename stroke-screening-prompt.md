@@ -12,10 +12,10 @@ mixed cohorts with prior stroke, lack of a stroke-free baseline, "not
 first-ever". DO NOT exclude on population for any of those.
 
 ## Gate 2 — INTERVENTION / INDEX SYSTEM
-INCLUDE only a genuine AI/ML system for stroke RISK PREDICTION. Conventional
-statistical models (plain Cox regression, logistic regression, C-statistic /
-regression-augmented clinical scores like CHA2DS2-VASc) are NOT eligible and
-FAIL Gate 2. EXCLUDE systems used ONLY for: acute stroke detection, triage,
+INCLUDE any model for stroke RISK PREDICTION. Both AI/ML systems AND conventional
+statistical models are eligible — plain Cox regression, logistic regression,
+C-statistic / regression-augmented clinical scores (e.g. CHA2DS2-VASc) all PASS
+Gate 2. EXCLUDE systems used ONLY for: acute stroke detection, triage,
 segmentation, treatment/therapy selection, rehabilitation, or POST-STROKE
 PROGNOSIS. Post-stroke prognosis and acute-treatment models FAIL Gate 2 even
 though population is loosened.
